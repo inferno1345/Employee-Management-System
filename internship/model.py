@@ -65,9 +65,9 @@ def updation(EMPNAME="",DESIGNATION="",DEPT="",id=""):
 def deletion(id=""):
     conn=coxn.raw_connection()
     cursor=conn.cursor()
-    cursor.execute("DELETE FROM EMPLOYER.dbo.EMPLOYEE WHERE EMP_ID=?",id)
     cursor.execute("DELETE FROM EMPLOYER.dbo.COMMUNICATION WHERE EMP_ID=?",id)
     cursor.execute("DELETE FROM EMPLOYER.dbo.PROJECT_SALARY WHERE EMP_ID=?",id)
+    cursor.execute("DELETE FROM EMPLOYER.dbo.EMPLOYEE WHERE EMP_ID=?",id)
     conn.commit()
     conn.close()
     return
