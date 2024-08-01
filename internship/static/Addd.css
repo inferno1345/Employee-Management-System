@@ -1,0 +1,114 @@
+#img1{
+    max-width: 170px;
+    margin: 0;
+}
+.Header{
+    display: flex;
+    justify-content: space-between; /* Align items to the left and right */
+    align-items: center; /* Align items vertically in the center 
+    padding: 10px 20px;*/
+}
+.nav-buttons{
+    display: flex;
+}
+
+h1{
+    padding-top: 20px;
+    font-size: 200%;
+    font-family: serif;
+}
+
+.textbox{
+    padding-bottom: 30px;
+}
+
+body{
+    background-color: #F6F2E9;
+    text-align: left;
+}
+.cardthings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    background-color: white; /* Ensure the box has a white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 65%;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+
+.img2{
+        max-width: 100%; /* Ensure the image doesn't exceed its container */
+        height: 100%;
+        padding-top: 20px;
+        padding-right: 20px;
+}
+
+input[type=text]{
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    width: 75%;
+    font-size: 15px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.button2{
+    background-color: #E1C39F;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    border-radius: 14px;
+    transition-duration: 0.4s;
+}
+
+.button2:hover{
+    background-color: rgb(0, 206, 0); 
+}
+.button3{
+    background-color: #E1C39F;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    border-radius: 14px;
+    transition-duration: 0.4s;
+}
+
+.button3:hover{
+    background-color: rgb(255, 53, 53); 
+}
+
+.button1{
+    float: right;
+    background-color: #E1C39F;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.button1:hover{
+    background-color: white; 
+}
+.right{
+    text-align: right;
+    width: 50%;
+}
+.left{
+    text-align: left;
+    padding-left: 25px;
+    width: 50%;
+}

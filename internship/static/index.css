@@ -1,0 +1,30 @@
+body{
+    background-color: #F6F2E9;
+}
+img{
+    width: 25%;
+    height: 25%;
+}
+h1{
+    font-size: 400%;
+    font-family: serif;
+}
+p{
+    font-size: 150%;
+}
+.welcome{
+    text-align: center;
+}
+button{
+    background-color: #E1C39F;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    border-radius: 14px;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color: white; 
+}
